@@ -1,0 +1,15 @@
+{
+  "organization": [
+    {
+      "organizationInformation": {
+        "organizationName": "TH Köln",
+        "country": "Deutschland",
+        "city": "Köln",
+        "zipcode": "50672",
+        "street": "Gustav Heinemann Ufer 54"
+      },
+      "sites": [],
+      "id": 1
+    }
+  ]
+}
