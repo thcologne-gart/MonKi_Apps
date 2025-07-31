@@ -1,0 +1,212 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "Submodel",
+        "local": false,
+        "value": "https://th-koeln.de/gart/vocabulary/MonKiGateway/1/0",
+        "index": 0,
+        "idType": "IRDI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/1325_0170_8032_8801"
+  },
+  "administration": null,
+  "idShort": "MonKiGateway",
+  "category": "CONSTANT",
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Template",
+  "submodelElements": [
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "AWSIotCoreInformation",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ThingName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ThingArn",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ThingId",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        }
+      ],
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "ConnectionInformation",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ConnectionStatus",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "LastTimestamp",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "long"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "IpAddress",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        }
+      ],
+      "kind": "Template",
+      "descriptions": null
+    }
+  ],
+  "descriptions": null
+}

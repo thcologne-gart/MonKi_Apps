@@ -1,0 +1,258 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "ConceptDescription",
+        "local": true,
+        "value": "https://th-koeln.de/gart/vocabulary/CompanyInformation/1/0",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/0533_8030_4032_1636"
+  },
+  "administration": null,
+  "idShort": "CompanyInformation",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Template",
+  "submodelElements": [
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/CompanyName/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "CompanyName",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAQ837#005",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Address",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": " 0173-1#02-AAO128#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Street",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO129#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Zipcode",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO132#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "CityTown",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": " 0173-1#02-AAO134#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "NationalCode",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        }
+      ],
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/QuantitySites/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "QuantitySites",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/Sites/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Sites",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    }
+  ],
+  "descriptions": null
+}

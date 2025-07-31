@@ -1,0 +1,316 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "ConceptDescription",
+        "local": true,
+        "value": "https://th-koeln.de/gart/vocabulary/SiteInformation/1/0",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/5330_9030_4032_5167"
+  },
+  "administration": null,
+  "idShort": "SiteInformation",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Template",
+  "submodelElements": [
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/SiteName/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "SiteName",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAQ837#005",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Address",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": " 0173-1#02-AAO128#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Street",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO129#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Zipcode",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO132#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "CityTown",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": " 0173-1#02-AAO134#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "NationalCode",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/Longitude/1/0",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Longitude",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/Lattitude/1/0",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Lattitude",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        }
+      ],
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/QuantityBuildings/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "QuantityBuildings",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/Buildings/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Buildings",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    }
+  ],
+  "descriptions": null
+}

@@ -1,0 +1,542 @@
+{
+	"https://th-koeln.de/gart/CompanyAAS/1/0": [
+		"https://th-koeln.de/gart/vocabulary/CompanyInformation/1/0",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/SiteAAS/1/0": [
+		"https://th-koeln.de/gart/vocabulary/SiteInformation/1/0",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BuildingAAS/1/0": [
+		"https://th-koeln.de/gart/vocabulary/BuildingInformation/1/0",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PumpAAS/1/0": [
+		"https://th-koeln.de/gart/vocabulary/OperatingInformationPump/1/0",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BACnetDeviceAAS/1/0": [
+		"https://th-koeln.de/gart/vocabulary/BACnetDatapointsInformation/1/0",
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/MonKiGatewayAas/1/0": [
+		"https://th-koeln.de/gart/vocabulary/MonKiGateway/1/0",
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionSupplyHeatAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionSupplyAirAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionSupplyColdAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionSupplyMediaAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionSupplyElectricityAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionOtherAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionTransportAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/BaseFunctionSecureAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoGenerateColdAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoStoreColdAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoDistributeColdAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoDistributeAirAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoProvideAirAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoProvideMediaAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoDisposeMediaAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoStoreMediaAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoDistributeMediaAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoSecureAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoObtainHeatAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoGenerateHeatAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoStoreHeatAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/FunctionLevelTwoDistributeHeatAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PlantDistributionCircuitAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PlantGeneratorAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PlantVentilationSystemAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PlantVentilationLineAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PlantMediaSupplyAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/PlantOtherAAS/1/0": [
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+	],
+	"https://th-koeln.de/gart/ComponentExtractAirGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentExtractAirFilterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentExhaustAirFlapAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentExtractAirFanAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentOutletAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentOutsideAirFilterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentOutsideAirFlapAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHumidifierAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentGeneralProvisionAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentChpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFireAlarmSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFireShutterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentDosingSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentDrainageAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentPressurizationStationAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentIntruderAlarmSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentIceTankAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentIceTankConnectionAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentDegassingAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSofteningAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSmokeExtractionAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSmokeExtractionFanAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentDesalinationAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeaterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentGreaseSeparatorAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFireExtinguishingSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFilterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentExtractAirFlapAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFrequencyConverterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFreshWaterModuleAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentGasWarningSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentDeviceGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentLiftstationAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeatingCircuitGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeatingCurveAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHygieneFlushingAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRefrigerationSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRefrigerationCircuitGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRefrigerationMachineAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRefrigerationMachineConnectionAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRefrigerationMeterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentBoilerAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFlapAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFlapsGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFuelPumpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFuelCleaningAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentCoolerAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRefillStationAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentCondensateNeutralizationAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentEmergencyCallAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentPelletBoilersAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentPresenceDetectorAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentPumpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSmokeAlarmSystemAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRoomAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRainwaterPumpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentControllerAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentPipeHeatingAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentRecoolingPlantAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentReturnAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentWasteWaterPumpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentTankAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentThermalDisinfectionAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentTransmitterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentCirculatingAirAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentCirculatingAirCoolingUnitAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentValveAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentFanAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSupplyAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentVolumeFlowControllerExtractAirAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentVolumeFlowControllerRoomAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentVolumeFlowControllerSupplyAirAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeatSupplierGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeatFlowMeterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeatPumpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHeatRecoveryAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentHotWaterPreparationAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentWaterTreatmentAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentWaterMeterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentToiletWasteWaterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentCirculationgeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentCirculationPumpAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSupplyAirGeneralAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSupplyAirFilterAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSupplyAirFlapAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	],
+	"https://th-koeln.de/gart/ComponentSupplyAirFanAAS/1/0": [
+		"https://admin-shell.io/zvei/nameplate/2/0/Nameplate",
+		"https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+		"https://th-koeln.de/gart/vocabulary/OperatingInformation/1/0"
+	]
+}

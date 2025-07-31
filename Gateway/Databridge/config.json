@@ -1,0 +1,61 @@
+{
+    "devices":  [],
+    "registryUrl": "http://139.6.140.23:4000/registry/api/v1/registry/",
+    "serverUrl": "http://139.6.140.23:4001/shells/",
+	"basyxVersion": "v1",
+
+	"includeMSTP": false,
+	
+    "schemeIdAas": {
+        "id": "th-koeln.de/GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "$deviceName$($deviceId$)"
+    },
+    "schemeIdAid": {
+        "id": "th-koeln.de/gart/Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "AssetInterfacesDescription"
+    },
+    "schemeIdAimc": {
+        "id": "th-koeln.de-GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "AssetInterfaceMappingConfiguration"
+    },
+    "schemeIdLiveData": {
+        "id": "th-koeln.de-GART-Labor-BACnetDevices-$timestamp_ms$",
+        "idType": "IRI",
+		"idShort": "BACnetDatapointsInformation"
+    },
+    "semanticIdAid": {
+        "idType": "Custom",
+        "value": "th-koeln.de/thomas/aid",
+        "local": true,
+        "type": "Submodel"
+    },
+    "semanticIdAimc": {
+        "idType": "Custom",
+        "value": "th-koeln.de/thomas/aimc",
+        "local": true,
+        "type": "Submodel"
+    },
+    "semanticIdLiveData": {
+        "idType": "Custom",
+        "value": "th-koeln.de/thomas/liveData",
+        "local": true,
+        "type": "Submodel"
+    },
+    "doScan": true,
+    "triggerOptions": {
+    	"12345": 20
+	},
+	"defaultTimerPeriod": 60,
+	
+	"mongoDbUrl": "mongodb://139.6.140.150:27017/",
+	"mongoDbDatabaseNr": 10002,
+	"mongoDbDatabaseName": "TimeSeries-$mongoDbDatabaseNr$",
+	"idShortMeasurements": "Measurements",
+	
+	"modbusBaudrate": 38400,
+	"modbusParity": "N",
+	"modbusStopbits": 2
+}

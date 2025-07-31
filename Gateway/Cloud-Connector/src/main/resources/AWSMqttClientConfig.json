@@ -1,0 +1,6 @@
+{
+	"clientEndpoint": 	"a1ip47z84q5gsm-ats.iot.us-east-1.amazonaws.com",
+	"clientId": 		"Gateway_Ali_1700222197738",
+	"certificateFile": "ecd71cfc18d1af05a79b5d0a6578deafa130bac0eff7cb3a80374085190159e8-certificate.pem.crt",
+	"privateKeyFile":  "ecd71cfc18d1af05a79b5d0a6578deafa130bac0eff7cb3a80374085190159e8-private.pem.key"
+}

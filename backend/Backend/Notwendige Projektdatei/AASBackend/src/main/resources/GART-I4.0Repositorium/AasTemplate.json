@@ -1,0 +1,47 @@
+{
+  "modelType": {
+    "name": "AssetAdministrationShell"
+  },
+  "idShort": "AASTemplate",
+  "identification": {
+    "idType": "Custom",
+    "id": "AssetAdministrationShellTemplate_v1"
+  },
+  "dataSpecification": [],
+  "embeddedDataSpecifications": [],
+  "submodels": [],
+  "asset": {
+    "keys": [
+      {
+        "type": "Asset",
+        "local": true,
+        "value": "",
+        "idType": "IRDI"
+      }
+    ],
+    "modelType": {
+      "name": "Asset"
+    },
+    "dataSpecification": [],
+    "embeddedDataSpecifications": [],
+    "idShort": "",
+    "identification": {
+      "idType": "IRDI",
+      "id": ""
+    },
+    "kind": "Instance"
+  },
+  "views": [],
+  "conceptDictionary": [],
+  "category": "CONSTANT",
+  "assetRef": {
+    "keys": [
+      {
+        "type": "Asset",
+        "local": true,
+        "value": "AssetTemplate_v1",
+        "idType": "Custom"
+      }
+    ]
+  }
+}

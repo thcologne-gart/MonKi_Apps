@@ -1,0 +1,2422 @@
+{
+  "userId" : "16311cc3-52ff-4d00-b9db-6e14e49b127e",
+  "connectionElements" : [ {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_50", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_50presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointY3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_51", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_51presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointX4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_69", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_69presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_5", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_5presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852178057",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "AlarmMessage", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852178057OperatingInformationAlarmMessagePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_12", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_12presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_24", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_24presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852364713",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "Request", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852364713OperatingInformationRequestPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_55", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_55presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointX2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_54", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_54presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointY1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_66", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_66presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackHeatingMode", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationFeedbackHeatingModePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_11", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_11presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_13", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_13presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852304079",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852304079OperatingInformationSetPointFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_4", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_4presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852275382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852275382OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogOutput_6", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogOutput_6presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852242142",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852242142OperatingInformationControlCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_52", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_52presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointY4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_23", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_23presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852364713",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852364713OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_56", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_56presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointY2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_63", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_63presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852269936",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "Request", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852269936OperatingInformationRequestPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_21", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_21presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852364713",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackTimeProgram", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852364713OperatingInformationFeedbackTimeProgramPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_20", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_20presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852364713",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852364713OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_64", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_64presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852269936",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852269936OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_65", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_65presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_10", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_10presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_53", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_53presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointX1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_30", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_30presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852218180",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852218180OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "loop_5", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationloop_5presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852232661",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852232661OperatingInformationControlCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogOutput_2", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogOutput_2presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852259830",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852259830OperatingInformationControlCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogOutput_3", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogOutput_3presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852319277",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852319277OperatingInformationControlCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogOutput_4", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogOutput_4presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852348057",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852348057OperatingInformationControlCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogOutput_5", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogOutput_5presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852395392",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852395392OperatingInformationControlCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_99", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_99presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852370878",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852370878OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_39", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_39presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_28", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_28presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852319277",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852319277OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_29", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_29presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852348057",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852348057OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogOutput_1", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogOutput_1presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852188202",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852188202OperatingInformationControlCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_20", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_20presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_19", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_19presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNight", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationSetpointStandbyNightPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_60", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_60presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_21", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_21presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_38", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_38presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointY1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_41", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_41presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_16", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_16presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_37", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_37presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointX1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_23", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_23presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_58", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_58presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointY3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_59", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_59presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointX4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_62", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_62presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852269936",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackTimeProgram", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852269936OperatingInformationFeedbackTimeProgramPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_15", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_15presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_22", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_22presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_78", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_78presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_24", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_24presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_61", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_61presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852269936",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852269936OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_14", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_14presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointNightSetback", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationSetpointNightSetbackPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_40", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_40presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_35", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_35presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852364713",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointBackUpModeDayHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852364713OperatingInformationSetpointBackUpModeDayHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_57", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_57presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointX3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_36", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_36presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_79", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_79presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_28", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_28presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_26", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_26presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_25", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_25presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_17", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_17presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_39", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_39presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointX2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_18", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_18presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointBackUpModeDayHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationSetpointBackUpModeDayHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_1", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_1presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852188202",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852188202OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_27", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_27presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_3", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_3presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852165836",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852165836OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_8", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_8presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852252265",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852252265OperatingInformationSetPointFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_7", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_7presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852279781",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852279781OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_4", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_4presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_9", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_9presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852401170",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointStorageTankTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852401170OperatingInformationSetPointStorageTankTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_6", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_6presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_19", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_19presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_72", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_72presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_70", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_70presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointNight", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationSetpointNightPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_87", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_87presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852192927",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueOutdoorTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852192927OperatingInformationMeasuredValueOutdoorTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_6", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_6presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852279781",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852279781OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_5", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_5presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_71", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_71presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_33", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_33presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_46", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_46presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852158679",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandManual", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852158679OperatingInformationSwitchingCommandManualPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_76", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_76presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNightHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationSetpointStandbyNightHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_74", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_74presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointBackUpModeDayHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationSetpointBackUpModeDayHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_8", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_8presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_1", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_1presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852197257",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueOutdoorTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852197257OperatingInformationMeasuredValueOutdoorTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_30", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_30presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNightHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationSetpointStandbyNightHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_34", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_34presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852364713",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852364713OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_7", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_7presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_45", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_45presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_77", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_77presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_73", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_73presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_42", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_42presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852374132",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852374132OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_3", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_3presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852283267",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852283267OperatingInformationSetPointFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_44", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_44presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852218180",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852218180OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_31", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_31presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_2", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_2presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852165836",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852165836OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_9", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_9presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852218180",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852218180OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_43", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_43presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_32", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_32presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852356102",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852356102OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_75", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_75presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNight", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationSetpointStandbyNightPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_105", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_105presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852252265",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852252265OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_103", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_103presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852214899",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852214899OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_101", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_101presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852207262",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852207262OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_102", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_102presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852223283",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852223283OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_100", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_100presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852210479",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852210479OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_89", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_89presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852183024",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MaintenanceMessage", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852183024OperatingInformationMaintenanceMessagePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_88", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_88presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852188202",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValuePower", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852188202OperatingInformationMeasuredValuePowerPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_16", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_16presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackTimeProgram", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationFeedbackTimeProgramPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_104", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_104presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852401170",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueStorageTankTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852401170OperatingInformationMeasuredValueStorageTankTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_19", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_19presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_2", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_2presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852170729",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852170729OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_91", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_91presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852287619",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852287619OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_3", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_3presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852170729",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackTimeProgram", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852170729OperatingInformationFeedbackTimeProgramPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_80", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_80presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852264512",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852264512OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_93", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_93presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852295223",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852295223OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_92", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_92presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852304079",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852304079OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_61", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_61presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointX1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_82", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_82presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointNightSetback", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationSetpointNightSetbackPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_40", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_40presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointY2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_83", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_83presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852218180",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852218180OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_81", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_81presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852223283",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852223283OperatingInformationSetPointFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_37", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_37presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852165836",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852165836OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_4", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_4presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852170729",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852170729OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_90", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_90presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852290862",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852290862OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_15", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_15presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_98", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_98presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852379695",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852379695OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_60", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_60presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852383328",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852383328OperatingInformationSupportPointY4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_65", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_65presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointX3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_86", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_86presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointBackUpModeDayHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationSetpointBackUpModeDayHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_14", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_14presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_43", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_43presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointX4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_44", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_44presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointY4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_85", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_85presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_87", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_87presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNight", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationSetpointStandbyNightPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_9", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_9presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852255879",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852255879OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_22", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_22presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852201621",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointTimeCalculation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852201621OperatingInformationSetpointTimeCalculationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_24", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_24presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointNightSetback", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationSetpointNightSetbackPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_57", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_57presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackHeatingMode", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationFeedbackHeatingModePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_84", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_84presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852218180",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852218180OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_63", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_63presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointX2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_67", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_67presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointX4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_88", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_88presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNightHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationSetpointStandbyNightHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_97", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_97presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852352783",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852352783OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_45", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_45presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointX1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_66", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_66presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointY3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_62", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_62presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointY1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_34", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_34presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852259830",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852259830OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_41", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_41presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointX3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_96", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_96presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852361427",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852361427OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_23", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_23presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852332797",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852332797OperatingInformationSetPointFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_56", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_56presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_31", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_31presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852242142",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852242142OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_10", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_10presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_95", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_95presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852324108",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueReturnTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852324108OperatingInformationMeasuredValueReturnTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_7", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_7presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852255879",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852255879OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_20", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_20presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNightHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationSetpointStandbyNightHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_33", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_33presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852183024",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852183024OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_8", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_8presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852255879",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackTimeProgram", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852255879OperatingInformationFeedbackTimeProgramPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_42", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_42presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852307546",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852307546OperatingInformationSupportPointY3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_32", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_32presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852188202",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852188202OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_64", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_64presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointY2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_11", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_11presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852313376",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackTimeProgram", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852313376OperatingInformationFeedbackTimeProgramPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogInput_94", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogInput_94presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852332797",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "MeasuredValueFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852332797OperatingInformationMeasuredValueFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_21", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_21presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852298774",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852298774OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_31", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_31presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_49", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_49presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX3", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointX3PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryValue_30", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryValue_30presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852395392",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackManualOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852395392OperatingInformationFeedbackManualOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_32", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_32presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_27", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_27presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_69", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_69presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852379695",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetPointFlowTemperature", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852379695OperatingInformationSetPointFlowTemperaturePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_47", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_47presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointX2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointX2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_48", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_48presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY2", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointY2PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_89", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_89presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852218180",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperatingHours", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852218180OperatingInformationFeedbackOperatingHoursPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_26", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_26presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointIntervalBlockingProtection", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationSetpointIntervalBlockingProtectionPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_10", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_10presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852246794",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommand", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852246794OperatingInformationSwitchingCommandPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_46", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_46presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852336382",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY1", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852336382OperatingInformationSupportPointY1PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryOutput_11", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryOutput_11presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852158679",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SwitchingCommandPlant", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852158679OperatingInformationSwitchingCommandPlantPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_68", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_68presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852226881",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SupportPointY4", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852226881OperatingInformationSupportPointY4PresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_25", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_25presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852327340",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointOverrunTime", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852327340OperatingInformationSetpointOverrunTimePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_16", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_16presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852165836",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852165836OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_17", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_17presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852165836",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "FeedbackOperation", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852165836OperatingInformationFeedbackOperationPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_6", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_6presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852389116",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "AlarmMessage", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852389116OperatingInformationAlarmMessagePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_18", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_18presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852183024",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852183024OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_14", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_14presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852188202",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "ControlCommandPreControlOfCeilingRadiantPanels", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852188202OperatingInformationControlCommandPreControlOfCeilingRadiantPanelsPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "binaryInput_7", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationbinaryInput_7presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852235886",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "AlarmMessage", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852235886OperatingInformationAlarmMessagePresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_28", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_28presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointBackUpModeDayHysteresis", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationSetpointBackUpModeDayHysteresisPresentValue"
+    } ]
+  }, {
+    "sourceElement" : {
+      "aasId" : "th-koeln.de/gart/aas/1698680654",
+      "submodelIdShort" : "BACnetDatapointsInformation",
+      "semPath" : [ "analogValue_29", "presentValue" ],
+      "path" : "th-koeln.de/gart/aas/1698680654BACnetDatapointsInformationanalogValue_29presentValue"
+    },
+    "destinationElements" : [ {
+      "aasId" : "th-koeln.de/gart/aas/1701852342166",
+      "submodelIdShort" : "OperatingInformation",
+      "semPath" : [ "SetpointStandbyNight", "PresentValue" ],
+      "path" : "th-koeln.de/gart/aas/1701852342166OperatingInformationSetpointStandbyNightPresentValue"
+    } ]
+  } ]
+}

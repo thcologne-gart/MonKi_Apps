@@ -1,0 +1,2805 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "GlobalReference",
+        "local": false,
+        "value": "https://th-koeln.de/gart/vocabulary/SubmodelBACnetDatapointInformation",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/9314_7003_3032_4616"
+  },
+  "administration": null,
+  "idShort": "BACnetDatapointInformation",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint1",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id1",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21194HZG103BH01BM02",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "BHKW_2_Betriebsmeldung_BHKW_Betriebsbereit",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint2",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id2",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21100HZG101AT01MT01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Aussentemperaturfühler",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "degreesCelsius",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint3",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id3",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "24187RLT601GA05SW03",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogValue",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Sollwert Volumenstrom Zuluft minimale Luftmenge A.1.02.0 Klassenraum",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "cubicMetersPerHour",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint4",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id4",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21128RLT610KL17RM02",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Rückmeldung Brandschutzklappe.216 Zuluft geschl. Lüftung Klassenräume Nord",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint5",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id5",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "2064RLT603FO01MT01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Fortlufttemperatur",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "degreesCelsius",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint6",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id6",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "2064KAE765KM01MT01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Messwert Drcuk Kältemaschine",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Pascal",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint7",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id7",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "2064RLT765BS01SB01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Alarmmeldung BSK",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": true,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "ZeroToMany",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "Datapoint8",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "Id8",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "2064SAN765EF01SB01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "One",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Hygienspülung schaltefehö",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToOne",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "binaryInput_32",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "binaryInput_32",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062SAN501PU03BM01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Betriebsmeldung Pumpe Heizkreis Warmwasserbereitung",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "-",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "True",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "binaryInput_30",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "binaryInput_30",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062HZG406PU01BM01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Betriebsmeldung Pumpe Heizkreis Fu�bodenheizung Bauteil B",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "-",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "True",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "binaryInput_38",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "binaryInput_38",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062HZG404PU01BM01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "binaryInput",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Betriebsmeldung Pumpe Heizkreis Fu�bodenheizung Bauteil D",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "-",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "True",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "analogValue_8",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "analogValue_8",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062SAN501VL01SW01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogValue",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Sollwert Vorlauftemperatur Heizkreis Warmwasserbereitung",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "degreesCelsius",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "65",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "analogValue_76",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "analogValue_76",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062HZG404RA01SW04",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogValue",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Sollwert St�tzbetrieb Nacht Hysterese Heizkreis Fu�bodenheizung Bauteil D",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "degreesKelvin",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "60",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "analogValue_73",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "analogValue_73",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062HZG404RA01SW01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogValue",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Sollwert St�tzbetrieb Tag Heizkreis Fu�bodenheizung Bauteil D",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "degreesCelsius",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "60",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": []
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "analogValue_71",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "analogValue_71",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectIdentifier",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "21062HZG404PU01SW01",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectName",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "analogValue",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ObjectType",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "Sollwert Nachlaufzeit Pumpe Heizkreis Fu�bodenheizung Bauteil D",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Description",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "seconds",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Units",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        },
+        {
+          "value": "60",
+          "valueId": null,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "PresentValue",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Instance",
+          "descriptions": null
+        }
+      ],
+      "kind": "Instance",
+      "descriptions": null
+    }
+  ],
+  "descriptions": null
+}

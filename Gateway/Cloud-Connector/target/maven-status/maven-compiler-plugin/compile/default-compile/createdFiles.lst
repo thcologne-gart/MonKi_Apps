@@ -1,0 +1,11 @@
+Application\ApplicationView.class
+IotMessage\MessageBuilder.class
+Executable\AwsClient_Executable.class
+IotCore\IotCoreController.class
+Application\ApplicationModel.class
+Application\ApplicationController.class
+BaSyxHandler\BaSyxController.class
+FileHandler\ConfigFileHandler.class
+SocketHandler\SocketServer.class
+Gateway\GatewayModel.class
+Channels\Channel.class

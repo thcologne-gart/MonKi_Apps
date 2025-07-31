@@ -1,0 +1,634 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "GlobalReference",
+        "local": false,
+        "value": "https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [
+    {
+      "semanticId": null,
+      "type": "Multiplicity",
+      "valueType": "",
+      "valueId": null,
+      "value": "ZeroToOne",
+      "modelType": {
+        "name": "Qualifier"
+      }
+    },
+    {
+      "semanticId": null,
+      "type": "EditIdShort",
+      "valueType": "",
+      "valueId": null,
+      "value": "True",
+      "modelType": {
+        "name": "Qualifier"
+      }
+    }
+  ],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://admin-shell.io/idta/HierarchicalStructures/Template/1/0/Submodel"
+  },
+  "administration": null,
+  "idShort": "HierarchicalStructures",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Template",
+  "submodelElements": [
+    {
+      "entityType": "SelfManagedEntity",
+      "asset": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": null,
+          "type": "EditIdShort",
+          "valueType": "",
+          "valueId": null,
+          "value": "True",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "EntryNode",
+      "category": null,
+      "modelType": {
+        "name": "Entity"
+      },
+      "statements": [
+        {
+          "entityType": "SelfManagedEntity",
+          "asset": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "OneToMany",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": null,
+              "type": "EditIdShort",
+              "valueType": "",
+              "valueId": null,
+              "value": "True",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "Node",
+          "category": null,
+          "modelType": {
+            "name": "Entity"
+          },
+          "statements": [
+            {
+              "entityType": "SelfManagedEntity",
+              "asset": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": null,
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "ZeroToMany",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": null,
+                  "type": "EditIdShort",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "True",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "Node",
+              "category": null,
+              "modelType": {
+                "name": "Entity"
+              },
+              "statements": [],
+              "kind": "Template",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Can be a Co-managed or Self-managed entity. A Node reflects an element in the hierarchical model is set into relation with one or more defined relations. The name of a node can be picked freely but it must be unique in its hierarchical (sub-)level."
+                }
+              ]
+            },
+            {
+              "first": {
+                "keys": []
+              },
+              "second": {
+                "keys": []
+              },
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": null,
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "ZeroToMany",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": null,
+                  "type": "EditIdShort",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "True",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "SameAs",
+              "category": null,
+              "modelType": {
+                "name": "RelationshipElement"
+              },
+              "kind": "Template",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Reference between two Entities in the same Submodel or across Submodels."
+                }
+              ]
+            },
+            {
+              "first": {
+                "keys": []
+              },
+              "second": {
+                "keys": []
+              },
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": null,
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "ZeroToMany",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": null,
+                  "type": "EditIdShort",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "True",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "IsPartOf",
+              "category": null,
+              "modelType": {
+                "name": "RelationshipElement"
+              },
+              "kind": "Template",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Modeling of logical connections between components and sub-components. Either this or \"HasPart\" must be used, not both."
+                }
+              ]
+            },
+            {
+              "first": {
+                "keys": []
+              },
+              "second": {
+                "keys": []
+              },
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": null,
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "ZeroToMany",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                },
+                {
+                  "semanticId": null,
+                  "type": "EditIdShort",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "True",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "HasPart",
+              "category": null,
+              "modelType": {
+                "name": "RelationshipElement"
+              },
+              "kind": "Template",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "Modeling of logical connections between components and sub-components. Either this or \"IsPartOf\" must be used, not both."
+                }
+              ]
+            },
+            {
+              "value": "",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "local": false,
+                    "value": "https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [
+                {
+                  "semanticId": null,
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "valueId": null,
+                  "value": "ZeroToOne",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "BulkCount",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "unsignedLong"
+                }
+              },
+              "kind": "Template",
+              "descriptions": [
+                {
+                  "language": "en",
+                  "text": "To be used if bulk components are referenced, e.g., a 10x M4x30 screw."
+                }
+              ]
+            }
+          ],
+          "kind": "Template",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Base entry point for the Entity tree in this Submodel, this must be a Self-managed Entity reflecting the Assets administrated in the Asset Administration Shell this Submodel is part of. The idShort of the EntryNode can be picked freely and may reflect a name of the asset."
+            }
+          ]
+        },
+        {
+          "first": {
+            "keys": []
+          },
+          "second": {
+            "keys": []
+          },
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToMany",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": null,
+              "type": "EditIdShort",
+              "valueType": "",
+              "valueId": null,
+              "value": "True",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "SameAs",
+          "category": null,
+          "modelType": {
+            "name": "RelationshipElement"
+          },
+          "kind": "Template",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Reference between two Entities in the same Submodel or across Submodels."
+            }
+          ]
+        },
+        {
+          "first": {
+            "keys": []
+          },
+          "second": {
+            "keys": []
+          },
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToMany",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": null,
+              "type": "EditIdShort",
+              "valueType": "",
+              "valueId": null,
+              "value": "True",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "IsPartOf",
+          "category": null,
+          "modelType": {
+            "name": "RelationshipElement"
+          },
+          "kind": "Template",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Modeling of logical connections between asset and sub-asset. Either this or \"HasPart\" must be used, not both."
+            }
+          ]
+        },
+        {
+          "first": {
+            "keys": []
+          },
+          "second": {
+            "keys": []
+          },
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "semanticId": null,
+              "type": "Multiplicity",
+              "valueType": "",
+              "valueId": null,
+              "value": "ZeroToMany",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            },
+            {
+              "semanticId": null,
+              "type": "EditIdShort",
+              "valueType": "",
+              "valueId": null,
+              "value": "True",
+              "modelType": {
+                "name": "Qualifier"
+              }
+            }
+          ],
+          "hasDataSpecification": [],
+          "idShort": "HasPart",
+          "category": null,
+          "modelType": {
+            "name": "RelationshipElement"
+          },
+          "kind": "Template",
+          "descriptions": [
+            {
+              "language": "en",
+              "text": "Modeling of logical connections between components and sub-components. Either this or \"IsPartOf\" must be used, not both."
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Base entry point for the Entity tree in this Submodel, this must be a Self-managed Entity reflecting the Assets administrated in the AAS this Submodel is part of."
+        }
+      ]
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://admin-shell.io/idta/HierarchicalStructures/ArcheType/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [
+        {
+          "semanticId": null,
+          "type": "Multiplicity",
+          "valueType": "",
+          "valueId": null,
+          "value": "One",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        },
+        {
+          "semanticId": null,
+          "type": "FormChoices",
+          "valueType": "",
+          "valueId": null,
+          "value": "Full;OneDown;OneUp",
+          "modelType": {
+            "name": "Qualifier"
+          }
+        }
+      ],
+      "hasDataSpecification": [],
+      "idShort": "ArcheType",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "string"
+        }
+      },
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "ArcheType of the Submodel, there are three allowed enumeration entries: 1. “Full”, 2. “OneDown” and 3. “OneUp”. "
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "en",
+      "text": "The Submodel HierarchicalStructures identified by its semanticId. The Submodel idShort can be picked freely."
+    }
+  ]
+}

@@ -1,0 +1,945 @@
+{
+  "semanticId": {
+    "keys": [
+      {
+        "type": "ConceptDescription",
+        "local": true,
+        "value": "https://th-koeln.de/gart/vocabulary/BuildingInformation/1/0",
+        "index": 0,
+        "idType": "IRI"
+      }
+    ]
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "https://example.com/ids/sm/8430_9030_4032_1654"
+  },
+  "administration": null,
+  "idShort": "BuildingInformation",
+  "category": null,
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Template",
+  "submodelElements": [
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/BuildingName/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "BuildingName",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "0173-1#02-AAQ837#005",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Address",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": " 0173-1#02-AAO128#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Street",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO129#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Zipcode",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO132#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "CityTown",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": " 0173-1#02-AAO134#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "NationalCode",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/Lattitude/1/0",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Lattitude",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/Longitude/1/0",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Longitude",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": ""
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        }
+      ],
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/YearOfConstruction/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "YearOfConstruction",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/QuantitySystems/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "QuantitySystems",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/Systems/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Systems",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/UsableSpace/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "UsableSpace",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/BuildingVolume/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "BuildingVolume",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "value": "",
+      "valueId": null,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/QuantityFloors/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "QuantityFloors",
+      "category": null,
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": ""
+        }
+      },
+      "kind": "Template",
+      "descriptions": null
+    },
+    {
+      "ordered": false,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "ConceptDescription",
+            "local": true,
+            "value": "https://th-koeln.de/gart/vocabulary/Questionnaire/1/0",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Questionnaire",
+      "category": null,
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "false",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/HasCentralHeating/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "HasCentralHeating",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "boolean"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "false",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/HasCentralWaterHeating/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "HasCentralWaterHeating",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "boolean"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "false",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/HasVentilation/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "HasVentilation",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "boolean"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "false",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/HasCooling/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "HasCooling",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "boolean"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "false",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/HasSecurity/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "HasSecurity",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "boolean"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "value": "Cole",
+          "valueId": null,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/EnergySource/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "EnergySource",
+          "category": null,
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/UsageDays/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "UsageDays",
+          "category": null,
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "true",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Monday",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "true",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Tuesdays",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "true",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Wednesday",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "true",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Thursday",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "true",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Friday",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "false",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Saturday",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "false",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/Weekday/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Sunday",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "boolean"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            }
+          ],
+          "kind": "Template",
+          "descriptions": null
+        },
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://th-koeln.de/gart/vocabulary/UsageTime/1/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "UsageTime",
+          "category": null,
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "value": "0800",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/StartTime/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "StartTime",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "time"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            },
+            {
+              "value": "1700",
+              "valueId": null,
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "local": true,
+                    "value": "https://th-koeln.de/gart/vocabulary/EndTime/1/0",
+                    "index": 0,
+                    "idType": "IRI"
+                  }
+                ]
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "EndTime",
+              "category": null,
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": "time"
+                }
+              },
+              "kind": "Template",
+              "descriptions": null
+            }
+          ],
+          "kind": "Template",
+          "descriptions": null
+        }
+      ],
+      "kind": "Template",
+      "descriptions": []
+    }
+  ],
+  "descriptions": null
+}

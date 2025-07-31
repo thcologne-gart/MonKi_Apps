@@ -1,0 +1,4 @@
+{
+	"RegistryAddress": 	"http://139.6.140.141:4000/registry/api/v1/registry",
+	"AasServerAddress": "http://139.6.140.141:4001"
+}

@@ -1,0 +1,11 @@
+LambdaFunctions\IotClientConnectionStatus.class
+LambdaModels\UpdateCompleteSubmodelMessage.class
+LambdaModels\UpdateCompleteSubmodelWithSplittedSemMessage.class
+LambdaFunctions\IotCoreBasics.class
+LambdaModels\MessageModel.class
+LambdaFunctions\UpdateDynamicValues.class
+LambdaModels\AasRegistrationMessage.class
+LambdaFunctions\aasRegistration.class
+LambdaFunctions\UpdateCompleteSubmodelWithSplittedSem.class
+LambdaModels\UpdateDynamicValuesMessage.class
+LambdaFunctions\UpdateCompleteSubmodel.class

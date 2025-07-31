@@ -1,0 +1,12 @@
+{
+  "69e4e6d9-0717-48d2-864a-1f40632dcf8f":{
+  	"customerId":"10001",
+    "BaSyxAasRegistryAddress": "http://44.212.75.3:4000/registry/api/v1/registry",
+    "BaSyxAasServerAddress": "http://44.212.75.3:4001/aasServer"
+  },
+  "16311cc3-52ff-4d00-b9db-6e14e49b127e":{
+  	"customerId":"10002",
+    "BaSyxAasRegistryAddress": "http://44.212.75.3:4002/registry/api/v1/registry",
+    "BaSyxAasServerAddress": "http://44.212.75.3:4003/aasServer"
+  }
+}

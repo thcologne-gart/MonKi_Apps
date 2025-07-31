@@ -1,0 +1,673 @@
+{
+  "assetAdministrationShells": [
+    {
+      "hasDataSpecification": [],
+      "asset": {
+        "keys": []
+      },
+      "submodels": [
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/5564_3132_3032_9775",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        }
+      ],
+      "conceptDictionaries": [],
+      "identification": {
+        "idType": "Custom",
+        "id": "AssetAdministrationShell---4F088A89"
+      },
+      "idShort": "",
+      "modelType": {
+        "name": "AssetAdministrationShell"
+      }
+    }
+  ],
+  "assets": [],
+  "submodels": [
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/5564_3132_3032_9775"
+      },
+      "idShort": "NLPClassificationResult",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": true,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ClassifiedDatapoint",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PredictionGrundfunktion",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "ordered": true,
+                  "allowDuplicates": true,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://example.com/ids/cd/2201_4132_3032_0965",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "LabelResult",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelName",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "valueId": {
+                        "keys": []
+                      },
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelScore",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelAccepted",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PredictionFunktionEbeneZwei",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "ordered": true,
+                  "allowDuplicates": true,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://example.com/ids/cd/2201_4132_3032_0965",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "LabelResult",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelName",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "valueId": {
+                        "keys": []
+                      },
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelScore",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelAccepted",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PredictionKomponente",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "ordered": true,
+                  "allowDuplicates": true,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://example.com/ids/cd/2201_4132_3032_0965",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "LabelResult",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelName",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "valueId": {
+                        "keys": []
+                      },
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelScore",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelAccepted",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PredictionDatapoint",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "ordered": true,
+                  "allowDuplicates": true,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://example.com/ids/cd/2201_4132_3032_0965",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "LabelResult",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelName",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "valueId": {
+                        "keys": []
+                      },
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelScore",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelAccepted",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "PredictionAnlage",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "ordered": true,
+                  "allowDuplicates": true,
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "ConceptDescription",
+                        "local": true,
+                        "value": "https://example.com/ids/cd/2201_4132_3032_0965",
+                        "index": 0,
+                        "idType": "IRI"
+                      }
+                    ]
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "LabelResult",
+                  "modelType": {
+                    "name": "SubmodelElementCollection"
+                  },
+                  "value": [
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelName",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "valueId": {
+                        "keys": []
+                      },
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelScore",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    },
+                    {
+                      "value": "",
+                      "semanticId": {
+                        "keys": []
+                      },
+                      "constraints": [],
+                      "hasDataSpecification": [],
+                      "idShort": "LabelAccepted",
+                      "modelType": {
+                        "name": "Property"
+                      },
+                      "valueType": {
+                        "dataObjectType": {
+                          "name": ""
+                        }
+                      },
+                      "kind": "Instance"
+                    }
+                  ],
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "NLPInput",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": ""
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": {
+                "keys": []
+              },
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "AIDPropertyRelation",
+              "modelType": {
+                "name": "ReferenceElement"
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "ObjectName",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": ""
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [
+                {
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "value": "One",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "ObjectType",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": ""
+                }
+              },
+              "kind": "Instance"
+            },
+            {
+              "value": "",
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [
+                {
+                  "type": "Multiplicity",
+                  "valueType": "",
+                  "value": "ZeroToOne",
+                  "modelType": {
+                    "name": "Qualifier"
+                  }
+                }
+              ],
+              "hasDataSpecification": [],
+              "idShort": "Description",
+              "modelType": {
+                "name": "Property"
+              },
+              "valueType": {
+                "dataObjectType": {
+                  "name": ""
+                }
+              },
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    }
+  ],
+  "conceptDescriptions": [
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/2201_4132_3032_0965"
+      },
+      "idShort": "",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [],
+      "isCaseOf": []
+    }
+  ]
+}
